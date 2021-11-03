@@ -29,7 +29,6 @@ const today = todayISO();
     return Promise.all(
       lands
         .filter((land) => land.osmRelationId !== null)
-        .filter((land) => land.wikidataId === "Q1137669")
         .map(({ name, wikidataId, osmRelationId }) => {
           const landAreaId = parseInt(osmRelationId) + 3600000000;
 
