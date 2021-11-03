@@ -1,0 +1,58 @@
+{
+  "type": "Feature",
+  "id": "relation/4437721",
+  "properties": {
+    "timestamp": "2017-04-25T07:10:29Z",
+    "version": 5,
+    "changeset": 48112665,
+    "user": "snodnipper",
+    "uid": 99999,
+    "boundary": "protected_area",
+    "boundary:type": "protected_area",
+    "gnis:county_id": "087",
+    "gnis:created": "10/19/1979",
+    "gnis:feature_id": "307632",
+    "gnis:state_id": "12",
+    "leisure": "nature_reserve",
+    "name": "Dry Tortugas National Park",
+    "name:de": "Dry-Tortugas-Nationalpark",
+    "name:es": "Parque Nacional Tortugas Secas",
+    "operator": "United States National Park Service",
+    "ownership": "national",
+    "protect_class": "2",
+    "protect_id": "2",
+    "protected": "perpetuity",
+    "protection_title": "National Park",
+    "type": "multipolygon",
+    "website": "https://www.nps.gov/drto/",
+    "wikidata": "Q1143655",
+    "wikipedia": "en:Dry Tortugas National Park",
+    "id": "relation/4437721"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-82.9667367, 24.6500146],
+        [-82.9659682, 24.5668881],
+        [-82.898119, 24.5671847],
+        [-82.805633, 24.614502],
+        [-82.800799, 24.616935],
+        [-82.795228, 24.62543],
+        [-82.766681, 24.66794],
+        [-82.766509, 24.701764],
+        [-82.800177, 24.726282],
+        [-82.86562, 24.726225],
+        [-82.874844, 24.723326],
+        [-82.883181, 24.721481],
+        [-82.899928, 24.717778],
+        [-82.902018, 24.715678],
+        [-82.922585, 24.695022],
+        [-82.924646, 24.692951],
+        [-82.930831, 24.686738],
+        [-82.932893, 24.684668],
+        [-82.9667367, 24.6500146]
+      ]
+    ]
+  }
+}
