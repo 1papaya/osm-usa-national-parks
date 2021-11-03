@@ -1,0 +1,22 @@
+{
+  "name": "osm-usa-national-parks",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "update": "ts-node ./scripts/update.ts",
+    "generate-boundaries": "ts-node ./scripts/generate-boundaries.ts",
+    "calculate-stats": "ts-node ./scripts/calculate-stats.ts"
+  },
+  "dependencies": {
+    "overpass-ts": "4.3.8"
+  },
+  "devDependencies": {
+    "@turf/simplify": "^6.5.0",
+    "@types/node": "^16.11.6",
+    "isomorphic-fetch": "^3.0.0",
+    "json-stringify-pretty-compact": "^3.0.0",
+    "osmtogeojson": "^3.0.0-beta.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
