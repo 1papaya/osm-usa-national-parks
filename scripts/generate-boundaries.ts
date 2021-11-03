@@ -49,7 +49,7 @@ const allBoundaryPath = "./data/boundaries.json";
         allBoundaryPath,
         stringify({
           type: "FeatureCollection",
-          features: simplifiedBoundaries.filter,
+          features: simplifiedBoundaries,
         })
       )
     )
