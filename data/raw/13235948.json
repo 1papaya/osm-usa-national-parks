@@ -2,9 +2,9 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.8 7d656e78",
   "osm3s": {
-    "timestamp_data_base": "2021-11-13T00:00:00Z",
-    "timestamp_osm_base": "2021-11-13T03:27:58Z",
-    "timestamp_areas_base": "2021-11-11T13:08:58Z",
+    "timestamp_data_base": "2021-11-14T00:00:00Z",
+    "timestamp_osm_base": "2021-11-14T03:28:42Z",
+    "timestamp_areas_base": "2021-11-12T18:07:57Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -713,11 +713,11 @@
     {
       "type": "way",
       "id": 60510308,
-      "timestamp": "2017-07-06T22:21:31Z",
-      "version": 3,
-      "changeset": 50095663,
-      "user": "AndrewBuck",
-      "uid": 214969,
+      "timestamp": "2021-11-13T15:45:04Z",
+      "version": 4,
+      "changeset": 113735189,
+      "user": "Memoire",
+      "uid": 2176227,
       "bounds": {
         "minlat": 47.020714,
         "minlon": -103.53382,
@@ -726,6 +726,7 @@
       },
       "nodes": [
         74429780,
+        9248545992,
         74429781,
         74429782,
         74429783,
@@ -774,6 +775,7 @@
       ],
       "geometry": [
         {"lat": 47.020714, "lon": -103.525915},
+        {"lat": 47.0207371, "lon": -103.5259489},
         {"lat": 47.020808, "lon": -103.526053},
         {"lat": 47.020831, "lon": -103.526076},
         {"lat": 47.020988, "lon": -103.526288},
@@ -5162,11 +5164,11 @@
     {
       "type": "way",
       "id": 60510421,
-      "timestamp": "2017-07-06T22:21:32Z",
-      "version": 3,
-      "changeset": 50095663,
-      "user": "AndrewBuck",
-      "uid": 214969,
+      "timestamp": "2021-11-13T16:20:39Z",
+      "version": 4,
+      "changeset": 113736625,
+      "user": "Memoire",
+      "uid": 2176227,
       "bounds": {
         "minlat": 46.9667455,
         "minlon": -103.4876796,
@@ -5186,6 +5188,7 @@
         754703852,
         754700241,
         754700130,
+        9248608557,
         754702207,
         754702399,
         754709574,
@@ -5232,6 +5235,7 @@
         {"lat": 46.9918651, "lon": -103.471411},
         {"lat": 46.9913226, "lon": -103.4709024},
         {"lat": 46.9911452, "lon": -103.470736},
+        {"lat": 46.9907794, "lon": -103.4707468},
         {"lat": 46.9904345, "lon": -103.4707571},
         {"lat": 46.9889707, "lon": -103.4696342},
         {"lat": 46.9888861, "lon": -103.4690317},
