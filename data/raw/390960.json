@@ -2,9 +2,9 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.8 7d656e78",
   "osm3s": {
-    "timestamp_data_base": "2021-11-14T00:00:00Z",
-    "timestamp_osm_base": "2021-11-14T03:27:43Z",
-    "timestamp_areas_base": "2021-11-12T18:07:57Z",
+    "timestamp_data_base": "2021-11-15T00:00:00Z",
+    "timestamp_osm_base": "2021-11-15T03:28:26Z",
+    "timestamp_areas_base": "2021-11-13T13:21:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -30,11 +30,11 @@
     {
       "type": "relation",
       "id": 390960,
-      "timestamp": "2020-10-23T05:32:01Z",
-      "version": 21,
-      "changeset": 92929555,
-      "user": "omgitsgela",
-      "uid": 6571172,
+      "timestamp": "2021-11-14T13:16:15Z",
+      "version": 22,
+      "changeset": 113762363,
+      "user": "Fred73000",
+      "uid": 8101879,
       "bounds": {
         "minlat": 40.15777,
         "minlon": -105.9137139,
@@ -4147,9 +4147,15 @@
         "boundary": "national_park",
         "boundary:type": "protected_area",
         "name": "Rocky Mountain National Park",
-        "operator": "United States National Park Service",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
         "ownership": "national",
+        "protect_class": "2",
         "protect_id": "2",
+        "protect_title": "National Park",
         "protected": "perpetuity",
         "protection_title": "National Park",
         "type": "boundary",
@@ -29810,7 +29816,7 @@
         {"lat": 40.3066655, "lon": -105.5378989},
         {"lat": 40.3066003, "lon": -105.5378142},
         {"lat": 40.3065504, "lon": -105.537719},
-        {"lat": 40.3064676, "lon": -105.5375077},
+        {"lat": 40.3064676, "lon": -105.5375177},
         {"lat": 40.3064119, "lon": -105.5373754},
         {"lat": 40.3063713, "lon": -105.5372591},
         {"lat": 40.3063696, "lon": -105.5372603}
@@ -62576,7 +62582,7 @@
         {"lat": 40.3106915, "lon": -105.5478961},
         {"lat": 40.3105415, "lon": -105.5480373},
         {"lat": 40.3103646, "lon": -105.5481407},
-        {"lat": 40.3101935, "lon": -105.5481836},
+        {"lat": 40.3102172, "lon": -105.5482361},
         {"lat": 40.3100954, "lon": -105.5482996},
         {"lat": 40.3099012, "lon": -105.5485441},
         {"lat": 40.3098224, "lon": -105.5486223},
@@ -62815,8 +62821,8 @@
       "uid": 191112,
       "bounds": {
         "minlat": 40.3117082,
-        "minlon": -105.5512959,
-        "maxlat": 40.3220822,
+        "minlon": -105.5512548,
+        "maxlat": 40.3220863,
         "maxlon": -105.5481527
       },
       "nodes": [
@@ -62934,8 +62940,8 @@
         {"lat": 40.3210962, "lon": -105.5506674},
         {"lat": 40.3213147, "lon": -105.5507609},
         {"lat": 40.3216947, "lon": -105.5509451},
-        {"lat": 40.3219053, "lon": -105.5511059},
-        {"lat": 40.3220822, "lon": -105.5512959}
+        {"lat": 40.3219626, "lon": -105.551113},
+        {"lat": 40.3220863, "lon": -105.5512548}
       ],
       "tags": {
         "bicycle": "no",
@@ -77147,11 +77153,11 @@
     {
       "type": "way",
       "id": 570348974,
-      "timestamp": "2018-03-16T19:22:59Z",
-      "version": 1,
-      "changeset": 57250732,
-      "user": "tekim",
-      "uid": 191112,
+      "timestamp": "2021-11-14T13:16:15Z",
+      "version": 2,
+      "changeset": 113762363,
+      "user": "Fred73000",
+      "uid": 8101879,
       "bounds": {
         "minlat": 40.3182209,
         "minlon": -105.5623142,
@@ -77162,6 +77168,7 @@
         5483331669,
         5483331668,
         5483331667,
+        6601267080,
         5483331666,
         5483331665,
         5483331664,
@@ -77194,8 +77201,9 @@
       ],
       "geometry": [
         {"lat": 40.318448, "lon": -105.5502034},
-        {"lat": 40.3183502, "lon": -105.5505549},
+        {"lat": 40.3183338, "lon": -105.5505755},
         {"lat": 40.3182343, "lon": -105.5510986},
+        {"lat": 40.3182276, "lon": -105.5513802},
         {"lat": 40.3182209, "lon": -105.5516657},
         {"lat": 40.3183636, "lon": -105.5521335},
         {"lat": 40.3189164, "lon": -105.5526655},
@@ -94591,7 +94599,7 @@
       "user": "tekim",
       "uid": 191112,
       "bounds": {
-        "minlat": 40.3220822,
+        "minlat": 40.3220863,
         "minlon": -105.552574,
         "maxlat": 40.325511,
         "maxlon": -105.5509959
@@ -94676,7 +94684,7 @@
         {"lat": 40.322422, "lon": -105.5510576},
         {"lat": 40.3222789, "lon": -105.5511019},
         {"lat": 40.3221736, "lon": -105.5511877},
-        {"lat": 40.3220822, "lon": -105.5512959}
+        {"lat": 40.3220863, "lon": -105.5512548}
       ],
       "tags": {"highway": "track", "lanes": "1", "surface": "unpaved"}
     },
