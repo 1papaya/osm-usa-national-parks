@@ -2,9 +2,9 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.8 7d656e78",
   "osm3s": {
-    "timestamp_data_base": "2021-11-27T00:00:00Z",
-    "timestamp_osm_base": "2021-11-27T03:23:59Z",
-    "timestamp_areas_base": "2021-11-25T13:47:12Z",
+    "timestamp_data_base": "2021-11-28T00:00:00Z",
+    "timestamp_osm_base": "2021-11-28T03:24:11Z",
+    "timestamp_areas_base": "2021-11-26T13:57:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4324,6 +4324,30 @@
         "tiger:name_direction_suffix": "E",
         "tiger:reviewed": "no"
       }
+    },
+    {
+      "type": "way",
+      "id": 1006810937,
+      "timestamp": "2021-11-27T19:34:34Z",
+      "version": 1,
+      "changeset": 114305127,
+      "user": "wegerje",
+      "uid": 598564,
+      "bounds": {
+        "minlat": 41.6090552,
+        "minlon": -87.1543694,
+        "maxlat": 41.6095054,
+        "maxlon": -87.1512647
+      },
+      "nodes": [9288777407, 9288777406, 9288777405, 9288777404, 9288777403],
+      "geometry": [
+        {"lat": 41.6090552, "lon": -87.1543694},
+        {"lat": 41.6093019, "lon": -87.1527493},
+        {"lat": 41.6092899, "lon": -87.1525589},
+        {"lat": 41.6094744, "lon": -87.1514216},
+        {"lat": 41.6095054, "lon": -87.1512647}
+      ],
+      "tags": {"highway": "track"}
     },
     {
       "type": "way",
@@ -17984,6 +18008,49 @@
         "highway": "footway",
         "segregated": "no"
       }
+    },
+    {
+      "type": "way",
+      "id": 1006810932,
+      "timestamp": "2021-11-27T19:34:34Z",
+      "version": 1,
+      "changeset": 114305127,
+      "user": "wegerje",
+      "uid": 598564,
+      "bounds": {
+        "minlat": 41.6098674,
+        "minlon": -87.1492135,
+        "maxlat": 41.6099055,
+        "maxlon": -87.1489137
+      },
+      "nodes": [9288777379, 9288777378, 9288777402],
+      "geometry": [
+        {"lat": 41.6098674, "lon": -87.1492135},
+        {"lat": 41.609889, "lon": -87.1490525},
+        {"lat": 41.6099055, "lon": -87.1489137}
+      ],
+      "tags": {"ford": "yes", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 1006810939,
+      "timestamp": "2021-11-27T19:34:34Z",
+      "version": 1,
+      "changeset": 114305127,
+      "user": "wegerje",
+      "uid": 598564,
+      "bounds": {
+        "minlat": 41.6099617,
+        "minlon": -87.1443138,
+        "maxlat": 41.6100018,
+        "maxlon": -87.1437934
+      },
+      "nodes": [9288777413, 9288798417],
+      "geometry": [
+        {"lat": 41.6099617, "lon": -87.1443138},
+        {"lat": 41.6100018, "lon": -87.1437934}
+      ],
+      "tags": {"highway": "footway", "name": "Burns Harbor Trails"}
     },
     {
       "type": "way",
