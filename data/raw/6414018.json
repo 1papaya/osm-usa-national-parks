@@ -2,9 +2,9 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.8 7d656e78",
   "osm3s": {
-    "timestamp_data_base": "2021-11-28T00:00:00Z",
-    "timestamp_osm_base": "2021-11-28T03:24:11Z",
-    "timestamp_areas_base": "2021-11-26T13:57:39Z",
+    "timestamp_data_base": "2021-11-29T00:00:00Z",
+    "timestamp_osm_base": "2021-11-29T03:24:04Z",
+    "timestamp_areas_base": "2021-11-27T18:47:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4346,6 +4346,29 @@
         {"lat": 41.6092899, "lon": -87.1525589},
         {"lat": 41.6094744, "lon": -87.1514216},
         {"lat": 41.6095054, "lon": -87.1512647}
+      ],
+      "tags": {"highway": "track"}
+    },
+    {
+      "type": "way",
+      "id": 1006894621,
+      "timestamp": "2021-11-28T06:17:59Z",
+      "version": 1,
+      "changeset": 114313966,
+      "user": "wegerje",
+      "uid": 598564,
+      "bounds": {
+        "minlat": 41.6166264,
+        "minlon": -87.1062344,
+        "maxlat": 41.6183479,
+        "maxlon": -87.1061271
+      },
+      "nodes": [9289443258, 9289443257, 181272362, 9289443259],
+      "geometry": [
+        {"lat": 41.6183479, "lon": -87.1062344},
+        {"lat": 41.6182767, "lon": -87.1061553},
+        {"lat": 41.6167872, "lon": -87.1061271},
+        {"lat": 41.6166264, "lon": -87.1061385}
       ],
       "tags": {"highway": "track"}
     },
@@ -18012,9 +18035,9 @@
     {
       "type": "way",
       "id": 1006810932,
-      "timestamp": "2021-11-27T19:34:34Z",
-      "version": 1,
-      "changeset": 114305127,
+      "timestamp": "2021-11-28T06:17:59Z",
+      "version": 2,
+      "changeset": 114313966,
       "user": "wegerje",
       "uid": 598564,
       "bounds": {
@@ -18029,7 +18052,12 @@
         {"lat": 41.609889, "lon": -87.1490525},
         {"lat": 41.6099055, "lon": -87.1489137}
       ],
-      "tags": {"ford": "yes", "highway": "footway"}
+      "tags": {
+        "depth": "3 feet + ?",
+        "ford": "yes",
+        "highway": "footway",
+        "informal": "yes"
+      }
     },
     {
       "type": "way",
@@ -18051,6 +18079,99 @@
         {"lat": 41.6100018, "lon": -87.1437934}
       ],
       "tags": {"highway": "footway", "name": "Burns Harbor Trails"}
+    },
+    {
+      "type": "way",
+      "id": 1006935704,
+      "timestamp": "2021-11-28T10:34:20Z",
+      "version": 1,
+      "changeset": 114319087,
+      "user": "wegerje",
+      "uid": 598564,
+      "bounds": {
+        "minlat": 41.6186152,
+        "minlon": -87.117458,
+        "maxlat": 41.6189413,
+        "maxlon": -87.1172438
+      },
+      "nodes": [9289793246, 9289793245],
+      "geometry": [
+        {"lat": 41.6186152, "lon": -87.117458},
+        {"lat": 41.6189413, "lon": -87.1172438}
+      ],
+      "tags": {
+        "highway": "footway",
+        "informal": "yes",
+        "layer": "-1",
+        "note": "proposed Burns Harbor Marquette Greenway way",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006935705,
+      "timestamp": "2021-11-28T10:48:05Z",
+      "version": 2,
+      "changeset": 114319424,
+      "user": "wegerje",
+      "uid": 598564,
+      "bounds": {
+        "minlat": 41.6140572,
+        "minlon": -87.1182592,
+        "maxlat": 41.6186152,
+        "maxlon": -87.1163665
+      },
+      "nodes": [
+        9288798430,
+        9289793259,
+        9289793258,
+        9289800513,
+        9289793257,
+        9289793256,
+        9289793255,
+        9289800510,
+        9289800509,
+        9289793254,
+        9289800512,
+        9289800511,
+        9289793253,
+        9289793252,
+        9289793251,
+        9289793250,
+        9289800506,
+        9289800505,
+        9289800508,
+        9289800507,
+        9289793246
+      ],
+      "geometry": [
+        {"lat": 41.6140572, "lon": -87.1182592},
+        {"lat": 41.6140739, "lon": -87.1180092},
+        {"lat": 41.6140572, "lon": -87.1172137},
+        {"lat": 41.6144209, "lon": -87.1172234},
+        {"lat": 41.6147697, "lon": -87.1172639},
+        {"lat": 41.6149198, "lon": -87.1173554},
+        {"lat": 41.6151684, "lon": -87.1173185},
+        {"lat": 41.6153227, "lon": -87.1174566},
+        {"lat": 41.6153519, "lon": -87.1172892},
+        {"lat": 41.6155279, "lon": -87.1172259},
+        {"lat": 41.6156372, "lon": -87.1172814},
+        {"lat": 41.6157139, "lon": -87.1172524},
+        {"lat": 41.6158883, "lon": -87.1172773},
+        {"lat": 41.6160276, "lon": -87.1172884},
+        {"lat": 41.6161127, "lon": -87.1173621},
+        {"lat": 41.6161861, "lon": -87.1173286},
+        {"lat": 41.6169118, "lon": -87.116998},
+        {"lat": 41.617439, "lon": -87.1164178},
+        {"lat": 41.618128, "lon": -87.1163665},
+        {"lat": 41.6182414, "lon": -87.1168396},
+        {"lat": 41.6186152, "lon": -87.117458}
+      ],
+      "tags": {
+        "highway": "footway",
+        "informal": "yes",
+        "note": "proposed Burns Harbor Marquette Greenway way"
+      }
     },
     {
       "type": "way",
