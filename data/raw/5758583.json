@@ -2,9 +2,9 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.8 7d656e78",
   "osm3s": {
-    "timestamp_data_base": "2021-11-21T00:00:00Z",
-    "timestamp_osm_base": "2021-11-21T03:32:54Z",
-    "timestamp_areas_base": "2021-11-19T13:26:08Z",
+    "timestamp_data_base": "2021-12-05T00:00:00Z",
+    "timestamp_osm_base": "2021-12-05T03:32:23Z",
+    "timestamp_areas_base": "2021-12-03T19:19:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -20,6 +20,7 @@
         "gnis:state_id": "49",
         "leisure": "nature_reserve",
         "name": "Zion National Park",
+        "name:s-pai": "Mukuntuweap",
         "operator": "United States National Park Service",
         "ownership": "national",
         "protect_class": "2",

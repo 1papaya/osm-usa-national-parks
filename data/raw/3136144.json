@@ -1,10 +1,10 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.56.8 7d656e78",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_data_base": "2021-11-21T00:00:00Z",
-    "timestamp_osm_base": "2021-11-21T03:23:46Z",
-    "timestamp_areas_base": "2021-11-19T13:26:08Z",
+    "timestamp_data_base": "2021-12-05T00:00:00Z",
+    "timestamp_osm_base": "2021-12-05T03:23:22Z",
+    "timestamp_areas_base": "2021-12-04T21:10:40Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4748,11 +4748,11 @@
     {
       "type": "way",
       "id": 982266808,
-      "timestamp": "2021-09-12T17:52:34Z",
-      "version": 2,
-      "changeset": 111106817,
-      "user": "dhimmel",
-      "uid": 9376583,
+      "timestamp": "2021-11-27T22:02:10Z",
+      "version": 3,
+      "changeset": 114308143,
+      "user": "ds2c",
+      "uid": 6330410,
       "bounds": {
         "minlat": 34.5138549,
         "minlon": -93.052984,
@@ -4824,7 +4824,8 @@
       "tags": {
         "colour": "green",
         "highway": "footway",
-        "name": "Tufa Terrace Trail"
+        "name": "Tufa Terrace Trail",
+        "surface": "concrete"
       }
     },
     {
