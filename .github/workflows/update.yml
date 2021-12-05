@@ -1,9 +1,6 @@
 name: Update Parks Data
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "1 3 * * *"
+on: [workflow_dispatch]
 
 jobs:
   daily-update:
